@@ -13,7 +13,7 @@ Se estiver acima ele envia um arquivo avisando a situação para area de trabalh
 
 Colequei esse programa para ser executado automaticamente uma vez por semana na minha maquina
 para isso usei `crontab -e` e adicionei, no arquivo que abriu a seguinte linha:
-* * * * 7 <path/to/script.sh>
+`* * * * 7 <path/to/script.sh>`
 
 assim o programa é executado todos os domingos. 
 
